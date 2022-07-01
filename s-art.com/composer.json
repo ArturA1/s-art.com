@@ -1,0 +1,11 @@
+{
+    "name": "s-art/mess",
+    "description": "project messenger with encryption in the database",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Artur"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,152 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+input {
+    outline: 0;
+    border: none;
+    font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	padding-left: 18px;
+	color: #222222;
+	height: 52px;
+	border-radius: 8px;
+	width: 100%;
+}
+html,body {
+  background: #FAFBFF;
+  color: #5E5E5E;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: auto 0;
+}
+
+.wrappen{
+	margin: 76px 110px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mess,.user{
+	display: flex;
+	margin: 0 65px;
+	flex-direction: column;
+	border: 1px solid rgba(35, 44, 94, 0.21);
+	box-shadow: 0px 6px 25px rgba(19, 35, 68, 0.1);
+	border-radius: 8px;
+	height: 100%;
+}
+.mess{
+	background: #F5F5F8;
+	width: 570px;
+}
+.user{
+	margin-top: 21px;
+    background: #FFFFFF;
+    padding: 37px 30px 51px 29px;
+    width: 370px;
+}
+.mess_content{
+	height: 470px;
+	display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.mess_content::-webkit-scrollbar {  
+	height: 389px;
+    width: 5px;
+}
+.mess_content::-webkit-scrollbar-thumb {
+    background: rgba(35, 44, 94, 0.12);
+    border-radius: 5px;
+}
+.mess_scroll{
+	margin-top: 30px;
+    border-top: 1px solid rgba(35, 44, 94, 0.13);
+    border-bottom: 1px solid rgba(35, 44, 94, 0.13);
+    padding-right: 11px;
+    background: #FFFFFF;
+}
+.mess_input{
+	margin: 36px 31px 34px 31px;
+	background: #FFFFFF;
+	border: 1px solid rgba(35, 44, 94, 0.21);
+	border-radius: 8px;
+	position: relative;
+    display: flex;
+    align-items: center;
+}
+.query_icon{
+    border: none;
+    position: absolute;
+    right: 13px;
+    padding: 0px;
+    background: none;
+    width: 28px;
+    height: 28px;
+}
+.query_icon:hover,.delete_icon:hover {
+    transform: scale(1.2);
+}
+.user_title{
+	margin-bottom: 6px;
+}
+.user_name{
+	background: #FFFFFF;
+	border: 1px solid #232C5E;
+	border-radius: 8px;
+}
+.container_content{
+	margin-top: 12px;
+    margin-bottom: 12px;
+	margin-left: 31px;
+    width: 351px;
+}
+.content_name{
+	margin-bottom: 6px;
+}
+.content_box{
+	display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.content_box_text{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 329px;
+    width: 100%;
+    padding: 6px;
+    background: #F5F5F8;
+    border-radius: 8px;
+}
+.content_text{
+	color: #222222;
+    margin: 11px;
+    word-break: break-word;
+}
+.text_time{
+	font-size: 13px;
+    line-height: 15px;
+    color: #969696;
+    display: flex;
+    align-items: flex-end;
+}
+.delete_icon{
+	border: none;
+    position: absolute;
+    right: 0px;
+    padding: 0px;
+    background: none;
+    width: 18px;
+    height: 18px;
+}
+
